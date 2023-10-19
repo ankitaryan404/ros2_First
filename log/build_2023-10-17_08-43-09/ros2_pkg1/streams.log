@@ -1,0 +1,28 @@
+[0.088s] Invoking command in '/home/ankit/Workspaces/ros2_cpp_ws_2/build/ros2_pkg1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ankit/Workspaces/ros2_cpp_ws_2/build/ros2_pkg1 -- -j2 -l2
+[0.465s] [35m[1mConsolidate compiler generated dependencies of target subscriber[0m
+[0.550s] [ 50%] Built target publisher
+[0.581s] [ 75%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[19.530s] [100%] [32m[1mLinking CXX executable subscriber[0m
+[20.630s] [100%] Built target subscriber
+[20.734s] Invoked command in '/home/ankit/Workspaces/ros2_cpp_ws_2/build/ros2_pkg1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ankit/Workspaces/ros2_cpp_ws_2/build/ros2_pkg1 -- -j2 -l2
+[21.066s] Invoking command in '/home/ankit/Workspaces/ros2_cpp_ws_2/build/ros2_pkg1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ankit/Workspaces/ros2_cpp_ws_2/build/ros2_pkg1
+[21.089s] -- Install configuration: ""
+[21.091s] -- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/lib/ros2_pkg1/publisher
+[21.094s] -- Installing: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/lib/ros2_pkg1/subscriber
+[21.111s] -- Set runtime path of "/home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/lib/ros2_pkg1/subscriber" to ""
+[21.111s] -- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ament_index/resource_index/package_run_dependencies/ros2_pkg1
+[21.111s] -- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ament_index/resource_index/parent_prefix_path/ros2_pkg1
+[21.118s] -- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/environment/ament_prefix_path.sh
+[21.120s] -- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/environment/ament_prefix_path.dsv
+[21.121s] -- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/environment/path.sh
+[21.121s] -- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/environment/path.dsv
+[21.122s] -- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/local_setup.bash
+[21.122s] -- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/local_setup.sh
+[21.122s] -- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/local_setup.zsh
+[21.122s] -- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/local_setup.dsv
+[21.123s] -- Installing: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/package.dsv
+[21.150s] -- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ament_index/resource_index/packages/ros2_pkg1
+[21.150s] -- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/cmake/ros2_pkg1Config.cmake
+[21.151s] -- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/cmake/ros2_pkg1Config-version.cmake
+[21.151s] -- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/package.xml
+[21.152s] Invoked command in '/home/ankit/Workspaces/ros2_cpp_ws_2/build/ros2_pkg1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ankit/Workspaces/ros2_cpp_ws_2/build/ros2_pkg1

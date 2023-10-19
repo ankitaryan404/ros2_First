@@ -1,0 +1,298 @@
+[0.000000] (-) TimerEvent: {}
+[0.004233] (ros2_pkg1) JobQueued: {'identifier': 'ros2_pkg1', 'dependencies': OrderedDict()}
+[0.004621] (ros2_pkg1) JobStarted: {'identifier': 'ros2_pkg1'}
+[0.066138] (ros2_pkg1) JobProgress: {'identifier': 'ros2_pkg1', 'progress': 'cmake'}
+[0.072567] (ros2_pkg1) JobProgress: {'identifier': 'ros2_pkg1', 'progress': 'build'}
+[0.074113] (ros2_pkg1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ankit/Workspaces/ros2_cpp_ws_2/build/ros2_pkg1', '--', '-j2', '-l2'], 'cwd': '/home/ankit/Workspaces/ros2_cpp_ws_2/build/ros2_pkg1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'ankit'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ankit'), ('OLDPWD', '/home/ankit/Workspaces'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1462'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1597'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d15f3859fc1b2dbb6f742338652d08c6'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ankit'), ('JOURNAL_STREAM', '8:37911'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ankit'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ankit-vm:@/tmp/.ICE-unix/1597,unix/ankit-vm:/tmp/.ICE-unix/1597'), ('INVOCATION_ID', 'b164088a4cbf40bf93cb17b99992e22b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('TILIX_ID', 'd146c543-757f-4063-914c-e59999b533ee'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RPZIC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ankit/Workspaces/ros2_cpp_ws_2/build/ros2_pkg1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d15f3859fc1b2dbb6f742338652d08c6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.094201] (-) TimerEvent: {}
+[0.194921] (-) TimerEvent: {}
+[0.295554] (-) TimerEvent: {}
+[0.396416] (-) TimerEvent: {}
+[0.400666] (ros2_pkg1) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.496903] (-) TimerEvent: {}
+[0.597943] (-) TimerEvent: {}
+[0.698485] (-) TimerEvent: {}
+[0.798982] (-) TimerEvent: {}
+[0.806500] (ros2_pkg1) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.899242] (-) TimerEvent: {}
+[0.933112] (ros2_pkg1) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.945159] (ros2_pkg1) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.970418] (ros2_pkg1) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.999765] (-) TimerEvent: {}
+[1.006178] (ros2_pkg1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.065100] (ros2_pkg1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.100173] (-) TimerEvent: {}
+[1.200951] (-) TimerEvent: {}
+[1.225099] (ros2_pkg1) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.236189] (ros2_pkg1) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.301120] (-) TimerEvent: {}
+[1.402049] (-) TimerEvent: {}
+[1.503262] (-) TimerEvent: {}
+[1.579764] (ros2_pkg1) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.603475] (-) TimerEvent: {}
+[1.704357] (-) TimerEvent: {}
+[1.805622] (-) TimerEvent: {}
+[1.906600] (-) TimerEvent: {}
+[1.966659] (ros2_pkg1) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.007111] (-) TimerEvent: {}
+[2.108304] (-) TimerEvent: {}
+[2.148436] (ros2_pkg1) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.150130] (ros2_pkg1) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.151436] (ros2_pkg1) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.153496] (ros2_pkg1) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.156777] (ros2_pkg1) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.157927] (ros2_pkg1) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.159517] (ros2_pkg1) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.162724] (ros2_pkg1) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.208513] (-) TimerEvent: {}
+[2.247643] (ros2_pkg1) StdoutLine: {'line': b'-- Generating done\n'}
+[2.260742] (ros2_pkg1) StdoutLine: {'line': b'-- Build files have been written to: /home/ankit/Workspaces/ros2_cpp_ws_2/build/ros2_pkg1\n'}
+[2.308688] (-) TimerEvent: {}
+[2.321648] (ros2_pkg1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publisher\x1b[0m\n'}
+[2.339723] (ros2_pkg1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target subscriber\x1b[0m\n'}
+[2.410811] (ros2_pkg1) StdoutLine: {'line': b'[ 25%] Built target publisher\n'}
+[2.411270] (-) TimerEvent: {}
+[2.442069] (ros2_pkg1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rpm_pub\x1b[0m\n'}
+[2.489626] (ros2_pkg1) StdoutLine: {'line': b'[ 50%] Built target subscriber\n'}
+[2.523986] (-) TimerEvent: {}
+[2.585036] (ros2_pkg1) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/speed_calc.dir/src/speed_calc.cpp.o\x1b[0m\n'}
+[2.590704] (ros2_pkg1) StdoutLine: {'line': b'[ 87%] Built target rpm_pub\n'}
+[2.624207] (-) TimerEvent: {}
+[2.724691] (-) TimerEvent: {}
+[2.825447] (-) TimerEvent: {}
+[2.926404] (-) TimerEvent: {}
+[3.027026] (-) TimerEvent: {}
+[3.127906] (-) TimerEvent: {}
+[3.228793] (-) TimerEvent: {}
+[3.329550] (-) TimerEvent: {}
+[3.430395] (-) TimerEvent: {}
+[3.531343] (-) TimerEvent: {}
+[3.632092] (-) TimerEvent: {}
+[3.733145] (-) TimerEvent: {}
+[3.842754] (-) TimerEvent: {}
+[3.943652] (-) TimerEvent: {}
+[4.044166] (-) TimerEvent: {}
+[4.144766] (-) TimerEvent: {}
+[4.245794] (-) TimerEvent: {}
+[4.346537] (-) TimerEvent: {}
+[4.447311] (-) TimerEvent: {}
+[4.548270] (-) TimerEvent: {}
+[4.648850] (-) TimerEvent: {}
+[4.749368] (-) TimerEvent: {}
+[4.849915] (-) TimerEvent: {}
+[4.950667] (-) TimerEvent: {}
+[5.051566] (-) TimerEvent: {}
+[5.152097] (-) TimerEvent: {}
+[5.253137] (-) TimerEvent: {}
+[5.354068] (-) TimerEvent: {}
+[5.455212] (-) TimerEvent: {}
+[5.556134] (-) TimerEvent: {}
+[5.657122] (-) TimerEvent: {}
+[5.757722] (-) TimerEvent: {}
+[5.858315] (-) TimerEvent: {}
+[5.959276] (-) TimerEvent: {}
+[6.060286] (-) TimerEvent: {}
+[6.160807] (-) TimerEvent: {}
+[6.261355] (-) TimerEvent: {}
+[6.362270] (-) TimerEvent: {}
+[6.462824] (-) TimerEvent: {}
+[6.563778] (-) TimerEvent: {}
+[6.664299] (-) TimerEvent: {}
+[6.765310] (-) TimerEvent: {}
+[6.867760] (-) TimerEvent: {}
+[6.968328] (-) TimerEvent: {}
+[7.103647] (-) TimerEvent: {}
+[7.204561] (-) TimerEvent: {}
+[7.305519] (-) TimerEvent: {}
+[7.406017] (-) TimerEvent: {}
+[7.506578] (-) TimerEvent: {}
+[7.607211] (-) TimerEvent: {}
+[7.707701] (-) TimerEvent: {}
+[7.808220] (-) TimerEvent: {}
+[7.909189] (-) TimerEvent: {}
+[8.010047] (-) TimerEvent: {}
+[8.110636] (-) TimerEvent: {}
+[8.211589] (-) TimerEvent: {}
+[8.312074] (-) TimerEvent: {}
+[8.412565] (-) TimerEvent: {}
+[8.513377] (-) TimerEvent: {}
+[8.614417] (-) TimerEvent: {}
+[8.715257] (-) TimerEvent: {}
+[8.815880] (-) TimerEvent: {}
+[8.916818] (-) TimerEvent: {}
+[9.017799] (-) TimerEvent: {}
+[9.118701] (-) TimerEvent: {}
+[9.219799] (-) TimerEvent: {}
+[9.320843] (-) TimerEvent: {}
+[9.421872] (-) TimerEvent: {}
+[9.522937] (-) TimerEvent: {}
+[9.623854] (-) TimerEvent: {}
+[9.724682] (-) TimerEvent: {}
+[9.825370] (-) TimerEvent: {}
+[9.926358] (-) TimerEvent: {}
+[10.027391] (-) TimerEvent: {}
+[10.128401] (-) TimerEvent: {}
+[10.229400] (-) TimerEvent: {}
+[10.330457] (-) TimerEvent: {}
+[10.431408] (-) TimerEvent: {}
+[10.532420] (-) TimerEvent: {}
+[10.633417] (-) TimerEvent: {}
+[10.734400] (-) TimerEvent: {}
+[10.835432] (-) TimerEvent: {}
+[10.936459] (-) TimerEvent: {}
+[11.037432] (-) TimerEvent: {}
+[11.138528] (-) TimerEvent: {}
+[11.239497] (-) TimerEvent: {}
+[11.340514] (-) TimerEvent: {}
+[11.441880] (-) TimerEvent: {}
+[11.543257] (-) TimerEvent: {}
+[11.644296] (-) TimerEvent: {}
+[11.745294] (-) TimerEvent: {}
+[11.846279] (-) TimerEvent: {}
+[11.947285] (-) TimerEvent: {}
+[12.048335] (-) TimerEvent: {}
+[12.149361] (-) TimerEvent: {}
+[12.250393] (-) TimerEvent: {}
+[12.351413] (-) TimerEvent: {}
+[12.452508] (-) TimerEvent: {}
+[12.553551] (-) TimerEvent: {}
+[12.654544] (-) TimerEvent: {}
+[12.755515] (-) TimerEvent: {}
+[12.856498] (-) TimerEvent: {}
+[12.957600] (-) TimerEvent: {}
+[13.058611] (-) TimerEvent: {}
+[13.159592] (-) TimerEvent: {}
+[13.260621] (-) TimerEvent: {}
+[13.361616] (-) TimerEvent: {}
+[13.462452] (-) TimerEvent: {}
+[13.563456] (-) TimerEvent: {}
+[13.664530] (-) TimerEvent: {}
+[13.765503] (-) TimerEvent: {}
+[13.866350] (-) TimerEvent: {}
+[13.967510] (-) TimerEvent: {}
+[14.068416] (-) TimerEvent: {}
+[14.169422] (-) TimerEvent: {}
+[14.270414] (-) TimerEvent: {}
+[14.371605] (-) TimerEvent: {}
+[14.472583] (-) TimerEvent: {}
+[14.573441] (-) TimerEvent: {}
+[14.674201] (-) TimerEvent: {}
+[14.774997] (-) TimerEvent: {}
+[14.875989] (-) TimerEvent: {}
+[14.976973] (-) TimerEvent: {}
+[15.077977] (-) TimerEvent: {}
+[15.178788] (-) TimerEvent: {}
+[15.279821] (-) TimerEvent: {}
+[15.380714] (-) TimerEvent: {}
+[15.481794] (-) TimerEvent: {}
+[15.582856] (-) TimerEvent: {}
+[15.683818] (-) TimerEvent: {}
+[15.784996] (-) TimerEvent: {}
+[15.885997] (-) TimerEvent: {}
+[15.986995] (-) TimerEvent: {}
+[16.087996] (-) TimerEvent: {}
+[16.188951] (-) TimerEvent: {}
+[16.290005] (-) TimerEvent: {}
+[16.391048] (-) TimerEvent: {}
+[16.491926] (-) TimerEvent: {}
+[16.593034] (-) TimerEvent: {}
+[16.694009] (-) TimerEvent: {}
+[16.794894] (-) TimerEvent: {}
+[16.895868] (-) TimerEvent: {}
+[16.996882] (-) TimerEvent: {}
+[17.097923] (-) TimerEvent: {}
+[17.198694] (-) TimerEvent: {}
+[17.299757] (-) TimerEvent: {}
+[17.400825] (-) TimerEvent: {}
+[17.501570] (-) TimerEvent: {}
+[17.602820] (-) TimerEvent: {}
+[17.703788] (-) TimerEvent: {}
+[17.804919] (-) TimerEvent: {}
+[17.905945] (-) TimerEvent: {}
+[18.006990] (-) TimerEvent: {}
+[18.107683] (-) TimerEvent: {}
+[18.208578] (-) TimerEvent: {}
+[18.309798] (-) TimerEvent: {}
+[18.410809] (-) TimerEvent: {}
+[18.511766] (-) TimerEvent: {}
+[18.612775] (-) TimerEvent: {}
+[18.713925] (-) TimerEvent: {}
+[18.814902] (-) TimerEvent: {}
+[18.915875] (-) TimerEvent: {}
+[19.016915] (-) TimerEvent: {}
+[19.117983] (-) TimerEvent: {}
+[19.219030] (-) TimerEvent: {}
+[19.320001] (-) TimerEvent: {}
+[19.420777] (-) TimerEvent: {}
+[19.522555] (-) TimerEvent: {}
+[19.623544] (-) TimerEvent: {}
+[19.724562] (-) TimerEvent: {}
+[19.825542] (-) TimerEvent: {}
+[19.926312] (-) TimerEvent: {}
+[20.027387] (-) TimerEvent: {}
+[20.128344] (-) TimerEvent: {}
+[20.229162] (-) TimerEvent: {}
+[20.329973] (-) TimerEvent: {}
+[20.430890] (-) TimerEvent: {}
+[20.531916] (-) TimerEvent: {}
+[20.632948] (-) TimerEvent: {}
+[20.734057] (-) TimerEvent: {}
+[20.835227] (-) TimerEvent: {}
+[20.936903] (-) TimerEvent: {}
+[21.037906] (-) TimerEvent: {}
+[21.138891] (-) TimerEvent: {}
+[21.239722] (-) TimerEvent: {}
+[21.340439] (-) TimerEvent: {}
+[21.441407] (-) TimerEvent: {}
+[21.542157] (-) TimerEvent: {}
+[21.642949] (-) TimerEvent: {}
+[21.710699] (ros2_pkg1) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable speed_calc\x1b[0m\n'}
+[21.743363] (-) TimerEvent: {}
+[21.844351] (-) TimerEvent: {}
+[21.946837] (-) TimerEvent: {}
+[22.047971] (-) TimerEvent: {}
+[22.148525] (-) TimerEvent: {}
+[22.249539] (-) TimerEvent: {}
+[22.350569] (-) TimerEvent: {}
+[22.451521] (-) TimerEvent: {}
+[22.552052] (-) TimerEvent: {}
+[22.652837] (-) TimerEvent: {}
+[22.753440] (-) TimerEvent: {}
+[22.834887] (ros2_pkg1) StdoutLine: {'line': b'[100%] Built target speed_calc\n'}
+[22.853964] (-) TimerEvent: {}
+[22.960267] (-) TimerEvent: {}
+[23.060306] (ros2_pkg1) CommandEnded: {'returncode': 0}
+[23.163807] (-) TimerEvent: {}
+[23.265542] (-) TimerEvent: {}
+[23.338093] (ros2_pkg1) JobProgress: {'identifier': 'ros2_pkg1', 'progress': 'install'}
+[23.365792] (-) TimerEvent: {}
+[23.409548] (ros2_pkg1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ankit/Workspaces/ros2_cpp_ws_2/build/ros2_pkg1'], 'cwd': '/home/ankit/Workspaces/ros2_cpp_ws_2/build/ros2_pkg1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'ankit'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ankit'), ('OLDPWD', '/home/ankit/Workspaces'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1462'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1597'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d15f3859fc1b2dbb6f742338652d08c6'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ankit'), ('JOURNAL_STREAM', '8:37911'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ankit'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ankit-vm:@/tmp/.ICE-unix/1597,unix/ankit-vm:/tmp/.ICE-unix/1597'), ('INVOCATION_ID', 'b164088a4cbf40bf93cb17b99992e22b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('TILIX_ID', 'd146c543-757f-4063-914c-e59999b533ee'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RPZIC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ankit/Workspaces/ros2_cpp_ws_2/build/ros2_pkg1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d15f3859fc1b2dbb6f742338652d08c6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[23.456125] (ros2_pkg1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.463072] (ros2_pkg1) StdoutLine: {'line': b'-- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/lib/ros2_pkg1/publisher\n'}
+[23.466065] (-) TimerEvent: {}
+[23.468363] (ros2_pkg1) StdoutLine: {'line': b'-- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/lib/ros2_pkg1/subscriber\n'}
+[23.471433] (ros2_pkg1) StdoutLine: {'line': b'-- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/lib/ros2_pkg1/rpm_pub\n'}
+[23.472271] (ros2_pkg1) StdoutLine: {'line': b'-- Installing: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/lib/ros2_pkg1/speed_calc\n'}
+[23.513691] (ros2_pkg1) StdoutLine: {'line': b'-- Set runtime path of "/home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/lib/ros2_pkg1/speed_calc" to ""\n'}
+[23.517768] (ros2_pkg1) StdoutLine: {'line': b'-- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ament_index/resource_index/package_run_dependencies/ros2_pkg1\n'}
+[23.518651] (ros2_pkg1) StdoutLine: {'line': b'-- Installing: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ament_index/resource_index/parent_prefix_path/ros2_pkg1\n'}
+[23.523154] (ros2_pkg1) StdoutLine: {'line': b'-- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/environment/ament_prefix_path.sh\n'}
+[23.523667] (ros2_pkg1) StdoutLine: {'line': b'-- Installing: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/environment/ament_prefix_path.dsv\n'}
+[23.525777] (ros2_pkg1) StdoutLine: {'line': b'-- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/environment/path.sh\n'}
+[23.526188] (ros2_pkg1) StdoutLine: {'line': b'-- Installing: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/environment/path.dsv\n'}
+[23.526941] (ros2_pkg1) StdoutLine: {'line': b'-- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/local_setup.bash\n'}
+[23.527346] (ros2_pkg1) StdoutLine: {'line': b'-- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/local_setup.sh\n'}
+[23.527698] (ros2_pkg1) StdoutLine: {'line': b'-- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/local_setup.zsh\n'}
+[23.530557] (ros2_pkg1) StdoutLine: {'line': b'-- Installing: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/local_setup.dsv\n'}
+[23.530936] (ros2_pkg1) StdoutLine: {'line': b'-- Installing: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/package.dsv\n'}
+[23.532725] (ros2_pkg1) StdoutLine: {'line': b'-- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ament_index/resource_index/packages/ros2_pkg1\n'}
+[23.533403] (ros2_pkg1) StdoutLine: {'line': b'-- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/cmake/ros2_pkg1Config.cmake\n'}
+[23.533872] (ros2_pkg1) StdoutLine: {'line': b'-- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/cmake/ros2_pkg1Config-version.cmake\n'}
+[23.534737] (ros2_pkg1) StdoutLine: {'line': b'-- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/package.xml\n'}
+[23.548846] (ros2_pkg1) CommandEnded: {'returncode': 0}
+[23.571549] (-) TimerEvent: {}
+[23.675147] (-) TimerEvent: {}
+[23.776867] (-) TimerEvent: {}
+[23.877869] (-) TimerEvent: {}
+[23.930505] (ros2_pkg1) JobEnded: {'identifier': 'ros2_pkg1', 'rc': 0}
+[23.944064] (-) EventReactorShutdown: {}

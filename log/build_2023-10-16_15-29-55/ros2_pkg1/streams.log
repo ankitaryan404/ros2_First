@@ -1,0 +1,46 @@
+[0.077s] Invoking command in '/home/ankit/Workspaces/ros2_cpp_ws_2/build/ros2_pkg1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ankit/Workspaces/ros2_cpp_ws_2/build/ros2_pkg1 -- -j2 -l2
+[0.416s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.268s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[1.449s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.468s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.496s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.559s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.627s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.958s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.967s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.522s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.187s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.457s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.458s] -- Configured cppcheck include dirs: 
+[3.458s] -- Configured cppcheck exclude dirs and/or files: 
+[3.470s] -- Added test 'lint_cmake' to check CMake code style
+[3.481s] -- Added test 'uncrustify' to check C / C++ code style
+[3.481s] -- Configured uncrustify additional arguments: 
+[3.482s] -- Added test 'xmllint' to check XML markup files
+[3.492s] -- Configuring done
+[3.550s] -- Generating done
+[3.563s] -- Build files have been written to: /home/ankit/Workspaces/ros2_cpp_ws_2/build/ros2_pkg1
+[3.764s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[34.071s] [100%] [32m[1mLinking CXX executable publisher[0m
+[35.336s] [100%] Built target publisher
+[35.633s] Invoked command in '/home/ankit/Workspaces/ros2_cpp_ws_2/build/ros2_pkg1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ankit/Workspaces/ros2_cpp_ws_2/build/ros2_pkg1 -- -j2 -l2
+[36.042s] Invoking command in '/home/ankit/Workspaces/ros2_cpp_ws_2/build/ros2_pkg1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ankit/Workspaces/ros2_cpp_ws_2/build/ros2_pkg1
+[36.113s] -- Install configuration: ""
+[36.117s] -- Installing: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/lib/$(PROJECT_NAME)/publisher
+[36.138s] -- Set runtime path of "/home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/lib/$(PROJECT_NAME)/publisher" to ""
+[36.147s] -- Installing: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ament_index/resource_index/package_run_dependencies/ros2_pkg1
+[36.150s] -- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ament_index/resource_index/parent_prefix_path/ros2_pkg1
+[36.154s] -- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/environment/ament_prefix_path.sh
+[36.154s] -- Installing: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/environment/ament_prefix_path.dsv
+[36.155s] -- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/environment/path.sh
+[36.156s] -- Installing: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/environment/path.dsv
+[36.156s] -- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/local_setup.bash
+[36.157s] -- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/local_setup.sh
+[36.157s] -- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/local_setup.zsh
+[36.159s] -- Installing: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/local_setup.dsv
+[36.159s] -- Installing: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/package.dsv
+[36.164s] -- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ament_index/resource_index/packages/ros2_pkg1
+[36.164s] -- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/cmake/ros2_pkg1Config.cmake
+[36.165s] -- Up-to-date: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/cmake/ros2_pkg1Config-version.cmake
+[36.165s] -- Installing: /home/ankit/Workspaces/ros2_cpp_ws_2/install/ros2_pkg1/share/ros2_pkg1/package.xml
+[36.187s] Invoked command in '/home/ankit/Workspaces/ros2_cpp_ws_2/build/ros2_pkg1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ankit/Workspaces/ros2_cpp_ws_2/build/ros2_pkg1
